@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Hotel.master.cs" Inherits="HotelBookingSystem.Hotel" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="Header">
+                    <img src="Logo.png" alt="Hotel Image" width="102" height="96">
+        <asp:TextBox ID="TextBox1" runat="server" width="392px"></asp:TextBox>
+        </div>
+        <div id="SiteMap">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                </asp:SiteMapPath>
+               </asp:ContentPlaceHolder>
+        </div>
+             <asp:Menu ID="Menu1" runat="server" BackColor="#B5C7DE" DataSourceID="SiteMapDataSource1" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" StaticSubMenuIndent="10px">
+            <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <DynamicMenuStyle BackColor="#B5C7DE" />
+            <DynamicSelectedStyle BackColor="#507CD1" />
+            <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticSelectedStyle BackColor="#507CD1" />
+        </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        <div id="CPH2">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                Content Here
+            </asp:ContentPlaceHolder>
+        </div>
+            <div id="CPH3">
+            <asp:ContentPlaceHolder ID="Footer" runat="server">
+                <div id="HotelAddess">
+                    6 Off, 19,<br/> Jalan 4/32,<br /> Jln Kepong, Batu,<br /> 52000 Kuala Lumpur
+                </div>
+                <br />
+                <div id="Copyright">
+                    © 2023 Rosa Hotel. All rights reserved. | <br />
+                    Rosa Hotel is a registered trademark. | <br />
+                    Designed and developed by Rosa Hotel.
+
+                </div>
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+
+</body>
+</html>
+
