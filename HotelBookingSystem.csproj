@@ -68,8 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AccountRegister.aspx" />
+    <Content Include="App_Data\Hotel.mdf" />
+    <Content Include="App_Data\Hotel_log.ldf">
+      <DependentUpon>Hotel.mdf</DependentUpon>
+    </Content>
+    <Content Include="BasicRoom.aspx" />
     <Content Include="Booking.aspx" />
     <Content Include="Cards.css" />
+    <Content Include="Master.css" />
     <Content Include="rooms.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm2.aspx" />
@@ -82,6 +88,13 @@
     </Compile>
     <Compile Include="AccountRegister.aspx.designer.cs">
       <DependentUpon>AccountRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicRoom.aspx.cs">
+      <DependentUpon>BasicRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicRoom.aspx.designer.cs">
+      <DependentUpon>BasicRoom.aspx</DependentUpon>
     </Compile>
     <Compile Include="Booking.aspx.cs">
       <DependentUpon>Booking.aspx</DependentUpon>
