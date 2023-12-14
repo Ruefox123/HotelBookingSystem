@@ -67,21 +67,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AboutUs.aspx" />
     <Content Include="AccountRegister.aspx" />
+    <Content Include="Admin\Admin.aspx" />
     <Content Include="App_Data\Hotel.mdf" />
     <Content Include="App_Data\Hotel_log.ldf">
       <DependentUpon>Hotel.mdf</DependentUpon>
     </Content>
-    <Content Include="BasicRoom.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="Payment\Payment.aspx" />
+    <Content Include="Rooms\BasicRoom.aspx" />
     <Content Include="Booking.aspx" />
     <Content Include="Cards.css" />
+    <Content Include="head.css" />
     <Content Include="Master.css" />
     <Content Include="rooms.aspx" />
+    <Content Include="Rooms\DeluxeRoom.aspx" />
+    <Content Include="Rooms\ExecutiveRoom.aspx" />
+    <Content Include="User\User.aspx" />
     <Content Include="Web.config" />
-    <Content Include="WebForm2.aspx" />
+    <Content Include="Homepage.aspx" />
     <Content Include="login.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AccountRegister.aspx.cs">
       <DependentUpon>AccountRegister.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -89,11 +104,32 @@
     <Compile Include="AccountRegister.aspx.designer.cs">
       <DependentUpon>AccountRegister.aspx</DependentUpon>
     </Compile>
-    <Compile Include="BasicRoom.aspx.cs">
+    <Compile Include="Admin\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment\Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rooms\BasicRoom.aspx.cs">
       <DependentUpon>BasicRoom.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="BasicRoom.aspx.designer.cs">
+    <Compile Include="Rooms\BasicRoom.aspx.designer.cs">
       <DependentUpon>BasicRoom.aspx</DependentUpon>
     </Compile>
     <Compile Include="Booking.aspx.cs">
@@ -118,12 +154,26 @@
     <Compile Include="rooms.aspx.designer.cs">
       <DependentUpon>rooms.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="Rooms\DeluxeRoom.aspx.cs">
+      <DependentUpon>DeluxeRoom.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="Rooms\DeluxeRoom.aspx.designer.cs">
+      <DependentUpon>DeluxeRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rooms\ExecutiveRoom.aspx.cs">
+      <DependentUpon>ExecutiveRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rooms\ExecutiveRoom.aspx.designer.cs">
+      <DependentUpon>ExecutiveRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
@@ -131,6 +181,13 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +201,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

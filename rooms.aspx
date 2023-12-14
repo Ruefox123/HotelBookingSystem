@@ -10,6 +10,7 @@
             <div class="room-name">Basic Room</div>
             <div class="room-description">A basic room with everything you need.</div>
             <div class="room-price">$80 per night</div>
+            <a href="Rooms/BasicRoom.aspx">More Info</a>
         </div>
     </div>
 
@@ -19,6 +20,7 @@
             <div class="room-name">Deluxe Room</div>
             <div class="room-description">Spacious and comfortable room with a beautiful view.</div>
             <div class="room-price">$150 per night</div>
+            <a href="Rooms/DeluxeRoom.aspx">More Info</a>
         </div>
     </div>
 
@@ -28,6 +30,7 @@
             <div class="room-name">Executive Suite</div>
             <div class="room-description">Luxurious suite with modern amenities and personalized service.</div>
             <div class="room-price">$250 per night</div>
+            <a href="Rooms/ExecutiveRoom.aspx">More Info</a>
         </div>
     </div>
     </div>
