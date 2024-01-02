@@ -6,6 +6,6 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
 
     <asp:PasswordRecovery ID="PasswordRecovery1" runat="server">
-    </asp:PasswordRecovery>
+</asp:PasswordRecovery>
 
 </asp:Content>

@@ -15,6 +15,7 @@
             <br />
         Booking Time:<asp:TextBox ID="txtBookingTime" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="CustomerName0" runat="server" ControlToValidate="txtBookingTime" ErrorMessage="*Booking Time is Required" ForeColor="Red"></asp:RequiredFieldValidator>
+            <asp:RegularExpressionValidator ID="TimeValidator" runat="server" ControlToValidate="txtBookingTime" ValidationExpression="^([01]?[0-9]|2[0-3]):[0-5][0-9]$" ErrorMessage="**Invalid time format. Please enter time in 24-hour format (HH:mm)." ForeColor="Red" />
         <br />
         Room Type: <asp:DropDownList ID="ddlRoomType" runat="server" OnSelectedIndexChanged="DropDownList2_SelectedIndexChanged">
             <asp:ListItem Value="Basic Room"></asp:ListItem>

@@ -14,19 +14,25 @@
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
   <img src="suite.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
+  <div class="text">Suite Room</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="suite.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
+  <img src="Image/features/Food.png" style="width:100%">
+  <div class="text">Buffet for Breakfast and Lunch</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="suite.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
+  <img src="Image/features/wifi.png" style="width:100%">
+  <div class="text">Free Wifi for all rooms</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="Image/features/services.png" style="width:100%">
+  <div class="text">Complamentery Room services for Sutie and Deluxe room</div>
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -72,10 +78,10 @@ function showSlides(n) {
  </script>
 
 
-            <p>Our rooms:</p>
+            <h2>Our rooms:</h2>
 <div class="wrap">
 <div class="card">
-    <img src="Logo.png" alt="Room 1">
+    <img src="Image\rooms\basic.jpeg" alt="Room 1">
     <div class="card-content">
         <div class="room-name">Basic Room</div>
         <div class="room-description">A basic room with everything you need.</div>
@@ -85,7 +91,7 @@ function showSlides(n) {
 </div>
 
 <div class="card">
-    <img src="Logo.png" alt="Room 1">
+    <img src="Image\rooms\deluxe.jpeg" alt="Room 1">
     <div class="card-content">
         <div class="room-name">Deluxe Room</div>
         <div class="room-description">Spacious and comfortable room with a beautiful view.</div>
@@ -95,21 +101,16 @@ function showSlides(n) {
 </div>
 
 <div class="card">
-    <img src="Logo.png" alt="Room 2">
+    <img src="suite.jpg" alt="Room 2">
     <div class="card-content">
         <div class="room-name">Executive Suite</div>
         <div class="room-description">Luxurious suite with modern amenities and personalized service.</div>
-        <div class="room-price">$250 per night</div>
+        <div class="room-price">$500 per night</div>
         <a href="Rooms/ExecutiveRoom.aspx">More Info</a>
     </div>
 </div>
 </div>
 </div>
 
-    <h2>Our services</h2>
-    Food
-    Amididties
-    Wifi
-    Facilities
 </asp:Content>
 

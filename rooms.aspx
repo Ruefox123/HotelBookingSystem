@@ -7,7 +7,7 @@
     <p>Here we have a veriatry of rooms to choose from. From the cheap and affordable to the fanciest and high standards room.</p>
     <div class="wrap">
     <div class="card">
-        <img src="Logo.png" alt="Room 1">
+        <img src="Image/rooms/basic.jpeg" alt="Room 1">
         <div class="card-content">
             <div class="room-name">Basic Room</div>
             <div class="room-description">A basic room with everything you need.</div>
@@ -17,7 +17,7 @@
     </div>
 
     <div class="card">
-        <img src="Logo.png" alt="Room 1">
+        <img src="Image/rooms/deluxe.jpeg" alt="Room 1">
         <div class="card-content">
             <div class="room-name">Deluxe Room</div>
             <div class="room-description">Spacious and comfortable room with a beautiful view.</div>
@@ -27,7 +27,7 @@
     </div>
 
     <div class="card">
-        <img src="Logo.png" alt="Room 2">
+        <img src="suite.jpg" alt="Room 2">
         <div class="card-content">
             <div class="room-name">Executive Suite</div>
             <div class="room-description">Luxurious suite with modern amenities and personalized service.</div>

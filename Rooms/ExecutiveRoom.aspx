@@ -1,11 +1,17 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Hotel.Master" AutoEventWireup="true" CodeBehind="ExecutiveRoom.aspx.cs" Inherits="HotelBookingSystem.Rooms.ExecutiveRoom" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style2 {
+            width: 350px;
+            height: 273px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
             <div class="container">
         <div class="header">
             <h2>Luxury Suite Room</h2>
-            <img src="../Logo.png" alt="Hotel Image" width="102" height="96">
+            <img src="../suite.jpg" alt="Hotel Image" class="auto-style2">
         </div>
         <div class="content">
             <p>Welcome to the epitome of luxury and comfort with our Luxury Suite Room. This room is the crown jewel of our hotel, offering an unparalleled level of service and amenities. The suite is generously spacious, with a floor area of 50 square meters, and features a separate living area and bedroom. The modern and elegant design is accentuated by tasteful furnishings and a soothing color palette.

@@ -1,11 +1,17 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Hotel.Master" AutoEventWireup="true" CodeBehind="DeluxeRoom.aspx.cs" Inherits="HotelBookingSystem.Rooms.DeluxeRoom" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style2 {
+            width: 317px;
+            height: 251px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
         <div class="container">
         <div class="header">
             <h2>Deluxe Serenity Room</h2>
-            <img src="../Logo.png" alt="Hotel Image" width="102" height="96">
+            <img src="../Image/rooms/deluxe.jpeg" alt="Hotel Image" class="auto-style2">
         </div>
         <div class="content">
             <p>Experience a touch of luxury in our Deluxe Serenity Room. This room is a step up from our Cozy Comfort Room and offers additional features for an even more comfortable stay. The room is elegantly furnished with a king-sized bed and boasts a spacious floor area of 30 square meters. The modern design is complemented by soothing colors that create a serene atmosphere.</p>

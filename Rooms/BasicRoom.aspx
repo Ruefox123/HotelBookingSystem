@@ -1,11 +1,17 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Hotel.Master" AutoEventWireup="true" CodeBehind="BasicRoom.aspx.cs" Inherits="HotelBookingSystem.Rooms.BasicRoom" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style2 {
+            width: 252px;
+            height: 223px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
         <div class="container">
         <div class="header">
             <h2>Cozy Comfort Room</h2>
-            <img src="../Logo.png" alt="Hotel Image" width="102" height="96">
+            <img src="../Image/rooms/basic.jpeg" alt="Hotel Image" class="auto-style2">
         </div>
         <div class="content">
             <p>Our Cozy Comfort Room is designed to provide a relaxing and comfortable stay for our guests. The room is furnished with a plush, queen-sized bed that guarantees a good night’s sleep. The room is spacious, with a floor area of 25 square meters, and features a modern design with warm, inviting colors.
@@ -19,7 +25,7 @@
                 <li>Tea and Coffee Making Facilities: Start your day with a hot cup of coffee or tea, made right in your room.</li>
                 <li>Ensuite Bathroom: The room features a private bathroom with a shower, fresh towels, and complimentary toiletries.</li>
             </ul>
-            <p>Price: $60.00 per night. </p>
+            <p>Price: $80.00 per night. </p>
         </div>
         <a href="../Homepage.aspx">Go back</a>
         <asp:Button ID="btnSubmit" runat="server" BackColor="#66FFFF" Font-Bold="True" Text="BOOK NOW!" Width="172px" OnClick="btnSubmit_Click" />

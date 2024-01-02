@@ -77,7 +77,9 @@
     </Content>
     <Content Include="Booking.aspx" />
     <Content Include="ContactUs.aspx" />
-    <Content Include="Payment\Payment.aspx" />
+    <Content Include="Payment\BookingConfirmed.aspx" />
+    <Content Include="Payment\FinalConfirmation.aspx" />
+    <Content Include="Payment\PaymentDetails.aspx" />
     <Content Include="Cards.css" />
     <Content Include="head.css" />
     <Content Include="Master.css" />
@@ -85,7 +87,6 @@
     <Content Include="Rooms\BasicRoom.aspx" />
     <Content Include="Rooms\DeluxeRoom.aspx" />
     <Content Include="Rooms\ExecutiveRoom.aspx" />
-    <Content Include="Rooms\Test.aspx" />
     <Content Include="slideshow.css" />
     <Content Include="Summary.aspx" />
     <Content Include="User\PasswordRecovery.aspx" />
@@ -137,12 +138,26 @@
     <Compile Include="ContactUs.aspx.designer.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Payment\Payment.aspx.cs">
-      <DependentUpon>Payment.aspx</DependentUpon>
+    <Compile Include="Payment\BookingConfirmed.aspx.cs">
+      <DependentUpon>BookingConfirmed.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Payment\Payment.aspx.designer.cs">
-      <DependentUpon>Payment.aspx</DependentUpon>
+    <Compile Include="Payment\BookingConfirmed.aspx.designer.cs">
+      <DependentUpon>BookingConfirmed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\FinalConfirmation.aspx.cs">
+      <DependentUpon>FinalConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment\FinalConfirmation.aspx.designer.cs">
+      <DependentUpon>FinalConfirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\PaymentDetails.aspx.cs">
+      <DependentUpon>PaymentDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment\PaymentDetails.aspx.designer.cs">
+      <DependentUpon>PaymentDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Hotel.Master.cs">
       <DependentUpon>Hotel.Master</DependentUpon>
@@ -193,13 +208,6 @@
     </Compile>
     <Compile Include="Rooms\ExecutiveRoom.aspx.designer.cs">
       <DependentUpon>ExecutiveRoom.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Rooms\Test.aspx.cs">
-      <DependentUpon>Test.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Rooms\Test.aspx.designer.cs">
-      <DependentUpon>Test.aspx</DependentUpon>
     </Compile>
     <Compile Include="Summary.aspx.cs">
       <DependentUpon>Summary.aspx</DependentUpon>
