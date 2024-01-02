@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HotelBookingSystem
+namespace HotelBookingSystem.Rooms
 {
 
 
-    public partial class WebForm2
+    public partial class ExecutiveRoom
     {
 
         /// <summary>

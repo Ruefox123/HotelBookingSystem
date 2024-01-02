@@ -1,9 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Hotel.Master" AutoEventWireup="true" CodeBehind="BasicRoom.aspx.cs" Inherits="HotelBookingSystem.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Hotel.Master" AutoEventWireup="true" CodeBehind="BasicRoom.aspx.cs" Inherits="HotelBookingSystem.Rooms.BasicRoom" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link rel="stylesheet" type="text/css" href="Cards.css" />
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container">
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+        <div class="container">
         <div class="header">
             <h2>Cozy Comfort Room</h2>
             <img src="../Logo.png" alt="Hotel Image" width="102" height="96">
@@ -23,10 +22,6 @@
             <p>Price: $60.00 per night. </p>
         </div>
         <a href="../Homepage.aspx">Go back</a>
-        <asp:Button ID="Button1" runat="server" BackColor="#66FFFF" Font-Bold="True" Text="BOOK NOW!" />
+        <asp:Button ID="btnSubmit" runat="server" BackColor="#66FFFF" Font-Bold="True" Text="BOOK NOW!" Width="172px" OnClick="btnSubmit_Click" />
     </div>
 </asp:Content>
-
-
-
-

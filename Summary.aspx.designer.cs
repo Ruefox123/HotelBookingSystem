@@ -11,34 +11,34 @@ namespace HotelBookingSystem
 {
 
 
-    public partial class WebForm2
+    public partial class Summary
     {
 
         /// <summary>
-        /// CreateUserWizard1 control.
+        /// BookingSummaryLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CreateUserWizard CreateUserWizard1;
+        protected global::System.Web.UI.WebControls.Label BookingSummaryLabel;
 
         /// <summary>
-        /// CreateUserWizardStep1 control.
+        /// BookingSummaryLiteral control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CreateUserWizardStep CreateUserWizardStep1;
+        protected global::System.Web.UI.WebControls.Literal BookingSummaryLiteral;
 
         /// <summary>
-        /// CompleteWizardStep1 control.
+        /// ConfirmButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompleteWizardStep CompleteWizardStep1;
+        protected global::System.Web.UI.WebControls.Button ConfirmButton;
     }
 }

@@ -1,15 +1,15 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Hotel.Master" AutoEventWireup="true" CodeBehind="BasicRoom.aspx.cs" Inherits="HotelBookingSystem.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Hotel.Master" AutoEventWireup="true" CodeBehind="DeluxeRoom.aspx.cs" Inherits="HotelBookingSystem.Rooms.DeluxeRoom" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link rel="stylesheet" type="text/css" href="Cards.css" />
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container">
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+        <div class="container">
         <div class="header">
             <h2>Deluxe Serenity Room</h2>
             <img src="../Logo.png" alt="Hotel Image" width="102" height="96">
         </div>
         <div class="content">
             <p>Experience a touch of luxury in our Deluxe Serenity Room. This room is a step up from our Cozy Comfort Room and offers additional features for an even more comfortable stay. The room is elegantly furnished with a king-sized bed and boasts a spacious floor area of 30 square meters. The modern design is complemented by soothing colors that create a serene atmosphere.</p>
+            <p>------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
             <p>The Deluxe Serenity Room comes with the following enhanced amenities:</p>
             <ul>
                 <li> High-Speed Wi-Fi: Enjoy uninterrupted connectivity with our complimentary high-speed Wi-Fi.</li>
@@ -25,6 +25,6 @@
             <p>Price: $150.00 per night</p>
         </div>
       <a href="../Homepage.aspx">Go back</a>
-        <asp:Button ID="Button1" runat="server" BackColor="#66FFFF" Font-Bold="True" Text="BOOK NOW!" />
+        <asp:Button ID="Button1" runat="server" BackColor="#66FFFF" Font-Bold="True" Text="BOOK NOW!" OnClick="Button1_Click" />
     </div>
 </asp:Content>
