@@ -9,11 +9,17 @@
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" type="text/css" href="Master.css" />
         <link rel="stylesheet" type="text/css" href="head.css" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 58px;
+            height: 66px;
+        }
+    </style>
 </head>
 <body>
       <header>
-    <div class="logo">
-     <img src="Logo.png" alt="Hotel Image" width="102" height="96">
+                  <div class="logo">
+     <img src="Logo.png" alt="Hotel Image" class="auto-style1" ">
       <span>Rosa Hotel</span>
     </div>
     <nav>
@@ -24,10 +30,8 @@
       </ul>
     </nav>
    <div id="SiteMap">
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         <asp:SiteMapPath ID="SiteMapPath1" runat="server">
         </asp:SiteMapPath>
-        </asp:ContentPlaceHolder>
     </div>
 
   </header>

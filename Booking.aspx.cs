@@ -13,5 +13,17 @@ namespace HotelBookingSystem
         {
 
         }
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            txtSysTime.Text = DateTime.Now.ToString("HH:mm:ss");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Timer timer = new Timer();
+            timer.Interval = (1000); // 1 sec
+            timer.Tick += new EventHandler(Timer_Tick);
+            timer.Start();
+        }
     }
 }

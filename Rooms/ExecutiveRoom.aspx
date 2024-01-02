@@ -18,5 +18,7 @@
             </ul>
             <p>Price: $XX.XX per night</p>
         </div>
+                <a href="../Homepage.aspx">Go back</a>
+        <asp:Button ID="Button1" runat="server" BackColor="#66FFFF" Font-Bold="True" Text="BOOK NOW!" />
         </div>
 </asp:Content>

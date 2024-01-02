@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
     <Content Include="AccountRegister.aspx" />
+    <Content Include="Admin\Addroom.aspx" />
     <Content Include="Admin\Admin.aspx" />
     <Content Include="App_Data\Hotel.mdf" />
     <Content Include="App_Data\Hotel_log.ldf">
@@ -84,6 +85,7 @@
     <Content Include="rooms.aspx" />
     <Content Include="Rooms\DeluxeRoom.aspx" />
     <Content Include="Rooms\ExecutiveRoom.aspx" />
+    <Content Include="slideshow.css" />
     <Content Include="User\User.aspx" />
     <Content Include="Web.config" />
     <Content Include="Homepage.aspx" />
@@ -103,6 +105,13 @@
     </Compile>
     <Compile Include="AccountRegister.aspx.designer.cs">
       <DependentUpon>AccountRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Addroom.aspx.cs">
+      <DependentUpon>Addroom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Addroom.aspx.designer.cs">
+      <DependentUpon>Addroom.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Admin.aspx.cs">
       <DependentUpon>Admin.aspx</DependentUpon>

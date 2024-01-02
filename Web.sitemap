@@ -3,9 +3,13 @@
   <siteMapNode url="~/Homepage.aspx" title="Homepage"  description="Homepage">
     <siteMapNode url="~/login.aspx" title="Login Page"  description="Login page" />
     <siteMapNode url="rooms.aspx" title="Rooms"  description="Rooms" />
+			<siteMapNode url="Rooms/BasicRoom.aspx" title="Basic Rooms"  description="Basic Rooms" />
+			<siteMapNode url="Rooms/DeluxeRoom.aspx" title="Deluxe Rooms"  description="Deluxe Rooms" />
+			<siteMapNode url="Rooms/ExecutiveRoom.aspx" title="Executive Rooms"  description="Executive Rooms" />
 	<siteMapNode url="AccountRegister.aspx" title="Account Registration"  description="Account Registration" />
-	  <siteMapNode url="Booking.aspx" title="Booking"  description="Booking" />
-	  	  <siteMapNode url="ContactUs.aspx" title="Contact Us"  description="Contact Us" />
-	  	  <siteMapNode url="AboutUs.aspx" title="About Us"  description="AboutUs" />
+	<siteMapNode url="Booking.aspx" title="Booking"  description="Booking" />
+	<siteMapNode url="ContactUs.aspx" title="Contact Us"  description="Contact Us" />
+	<siteMapNode url="AboutUs.aspx" title="About Us"  description="AboutUs" />
   </siteMapNode>
 </siteMap>
+

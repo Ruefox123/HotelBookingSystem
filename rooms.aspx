@@ -3,6 +3,8 @@
      <link rel="stylesheet" type="text/css" href="Cards.css" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
+    <h2>Rooms</h2>
+    <p>Here we have a veriatry of rooms to choose from. From the cheap and affordable to the fanciest and high standards room.</p>
     <div class="wrap">
     <div class="card">
         <img src="Logo.png" alt="Room 1">

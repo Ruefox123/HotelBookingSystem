@@ -3,6 +3,11 @@
     <link rel="stylesheet" type="text/css" href="Cards.css" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-ContactUS
+<h2>Contact Us</h2>
+    If you wish to contact us for any inquries, the information is provided below
+    <p>Phone Number: 03-4456-35666</p>
+    <p>Email Address: <a href="mailto:rosahotelsupport@protonmail.com">rosahotelsupport@protonmail.com</a></p>
+    <p>Busniess Hours: 8am till 8pm</p>
+    <p>Address:???</p>
 </asp:Content>
 

@@ -10,9 +10,11 @@
             <p>Phone: <asp:Label ID="lblPhone" runat="server" Text="phone"></asp:Label></p>
             <p>Address: <asp:Label ID="lblAddress" runat="server" Text="address"></asp:Label></p>
             <p>Booking History:</p>
-            <asp:LoginView ID="LoginView1" runat="server"></asp:LoginView>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
                 WIP
         </div>
+    <href>Password recovery</href>
 
 </asp:Content>
 
