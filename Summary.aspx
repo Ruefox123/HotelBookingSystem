@@ -12,4 +12,6 @@
             <asp:Button ID="ConfirmButton" runat="server" Text="Confirm Booking" OnClick="ConfirmButton_Click" />
         </div>
 
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="select *;"></asp:SqlDataSource>
+
 </asp:Content>

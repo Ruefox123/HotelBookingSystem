@@ -71,6 +71,10 @@
     <Content Include="AccountRegister.aspx" />
     <Content Include="Admin\Addroom.aspx" />
     <Content Include="Admin\Admin.aspx" />
+    <Content Include="App_Data\Accounts.mdf" />
+    <Content Include="App_Data\Accounts_log.ldf">
+      <DependentUpon>Accounts.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\Hotel.mdf" />
     <Content Include="App_Data\Hotel_log.ldf">
       <DependentUpon>Hotel.mdf</DependentUpon>
@@ -84,9 +88,9 @@
     <Content Include="head.css" />
     <Content Include="Master.css" />
     <Content Include="rooms.aspx" />
-    <Content Include="Rooms\BasicRoom.aspx" />
     <Content Include="Rooms\DeluxeRoom.aspx" />
     <Content Include="Rooms\ExecutiveRoom.aspx" />
+    <Content Include="Rooms\BasicRoom.aspx" />
     <Content Include="slideshow.css" />
     <Content Include="Summary.aspx" />
     <Content Include="User\PasswordRecovery.aspx" />
@@ -174,13 +178,6 @@
     <Compile Include="rooms.aspx.designer.cs">
       <DependentUpon>rooms.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Rooms\BasicRoom.aspx.cs">
-      <DependentUpon>BasicRoom.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Rooms\BasicRoom.aspx.designer.cs">
-      <DependentUpon>BasicRoom.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Rooms\DeluxeRoom.aspx.cs">
       <DependentUpon>DeluxeRoom.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -208,6 +205,13 @@
     </Compile>
     <Compile Include="Rooms\ExecutiveRoom.aspx.designer.cs">
       <DependentUpon>ExecutiveRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rooms\BasicRoom.aspx.cs">
+      <DependentUpon>BasicRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rooms\BasicRoom.aspx.designer.cs">
+      <DependentUpon>BasicRoom.aspx</DependentUpon>
     </Compile>
     <Compile Include="Summary.aspx.cs">
       <DependentUpon>Summary.aspx</DependentUpon>

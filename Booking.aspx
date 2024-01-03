@@ -33,11 +33,11 @@
             <asp:ListItem>8</asp:ListItem>
         </asp:DropDownList><br />
         Additional Services: <asp:CheckBoxList ID="CheckBoxList1" runat="server">
-            <asp:ListItem>Breakfast ($25)</asp:ListItem>
-            <asp:ListItem>Lunch ($25)</asp:ListItem>
+            <asp:ListItem>Breakfast </asp:ListItem>
+            <asp:ListItem>Lunch </asp:ListItem>
         </asp:CheckBoxList><br />
 
-        <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" /><asp:Button ID="Button2" runat="server" Text="Reset" />
+        <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" /><asp:Button ID="Button2" runat="server" Text="Reset" OnClick="Button2_Click" />
 
     </div>
 </asp:Content>

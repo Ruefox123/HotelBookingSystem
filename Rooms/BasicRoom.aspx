@@ -1,6 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Hotel.Master" AutoEventWireup="true" CodeBehind="BasicRoom.aspx.cs" Inherits="HotelBookingSystem.Rooms.BasicRoom" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Hotel.Master" AutoEventWireup="true" CodeBehind="BasicRoom.aspx.cs" Inherits="HotelBookingSystem.Rooms.WebForm1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
+        <style type="text/css">
         .auto-style2 {
             width: 252px;
             height: 223px;
@@ -29,5 +29,5 @@
         </div>
         <a href="../Homepage.aspx">Go back</a>
         <asp:Button ID="btnSubmit" runat="server" BackColor="#66FFFF" Font-Bold="True" Text="BOOK NOW!" Width="172px" OnClick="btnSubmit_Click" />
-    </div>
+            </div>
 </asp:Content>

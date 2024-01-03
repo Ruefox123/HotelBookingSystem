@@ -1,11 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Hotel.Master" AutoEventWireup="true" CodeBehind="DeluxeRoom.aspx.cs" Inherits="HotelBookingSystem.Rooms.DeluxeRoom" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-        .auto-style2 {
-            width: 317px;
-            height: 251px;
-        }
-    </style>
+    .auto-style2 {
+        width: 317px;
+        height: 251px;
+    }
+</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
         <div class="container">

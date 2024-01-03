@@ -27,6 +27,19 @@ namespace HotelBookingSystem
                     }
                 }
             }
+            string services = Request.QueryString["services"];
+            if (!string.IsNullOrEmpty(services))
+            {
+                string[] selectedServices = services.Split(',');
+                foreach (string service in selectedServices)
+                {
+                    ListItem listItem = CheckBoxList1.Items.FindByText(service);
+                    if (listItem != null)
+                    {
+                        listItem.Selected = true;
+                    }
+                }
+            }
         }
 
 
@@ -75,6 +88,11 @@ namespace HotelBookingSystem
                 
                 Response.Redirect("Summary.aspx");
             }
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect(Request.RawUrl);
         }
     }
 }

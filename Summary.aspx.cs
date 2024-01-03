@@ -13,7 +13,7 @@ namespace HotelBookingSystem
         {
             if (!IsPostBack)
             {
-                // Retrieve the booking details from the session
+              
                 string customerName = Session["CustomerName"] as string;
                 string bookingDate = Session["BookingDate"] as string;
                 string bookingTime = Session["BookingTime"] as string;
@@ -21,7 +21,7 @@ namespace HotelBookingSystem
                 string numberOfGuests = Session["NumberOfGuests"] as string;
                 string additionalServices = Session["AdditionalServices"] as string;
 
-                // Generate the booking summary
+                
                 string bookingSummary = $"Customer Name: {customerName}<br />" +
                                         $"Booking Date: {bookingDate}<br />" +
                                         $"Booking Time: {bookingTime}<br />" +
@@ -29,14 +29,18 @@ namespace HotelBookingSystem
                                         $"Number of Guests: {numberOfGuests}<br />" +
                                         $"Additional Services: {additionalServices}";
 
-                // Display the booking summary
+               
                 BookingSummaryLiteral.Text = bookingSummary;
             }
         }
 
         protected void ConfirmButton_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Payment/PaymentDetails.aspx");
+        }
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

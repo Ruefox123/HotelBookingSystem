@@ -11,7 +11,7 @@ namespace HotelBookingSystem.Rooms
 {
 
 
-    public partial class BasicRoom
+    public partial class WebForm1
     {
 
         /// <summary>

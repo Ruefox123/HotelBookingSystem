@@ -14,7 +14,7 @@
             <p>&nbsp;</p>
                 WIP
         </div>
-    <href>Password recovery</href>
+    Password recovery<a href="PasswordRecovery.aspx">Click Here</a>
 
 </asp:Content>
 
