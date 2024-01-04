@@ -11,6 +11,7 @@
             <asp:Label ID="PriceLabel" runat="server" Text="Price:" />
             <asp:TextBox ID="PriceTextBox" runat="server" />
             <asp:RequiredFieldValidator ID="PriceValidator" runat="server" ControlToValidate="PriceTextBox" ErrorMessage="Price is required." />
+               <br />
             <br />
             <asp:Button ID="AddButton" runat="server" Text="Add Room" OnClick="AddButton_Click" />
         </div>

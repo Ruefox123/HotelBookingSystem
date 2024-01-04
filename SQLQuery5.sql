@@ -1,0 +1,22 @@
+﻿INSERT INTO Rooms (RoomID, RoomType, Description, RoomPrice)
+VALUES 
+('1002', 'Basic Room', 'Basic Room', 20.00),
+('1003', 'Deluxe Room', 'Deluxe Room', 40.00),
+('1004', 'Suite Room', 'Suite Room', 60.00),
+('1005', 'Basic Room', 'Basic Room', 20.00),
+('1006', 'Deluxe Room', 'Deluxe Room', 40.00),
+('1007', 'Suite Room', 'Suite Room', 60.00),
+('1008', 'Basic Room', 'Basic Room', 20.00),
+('1009', 'Deluxe Room', 'Deluxe Room', 40.00),
+('1010', 'Suite Room', 'Suite Room', 60.00),
+('1011', 'Basic Room', 'Basic Room', 20.00),
+('1012', 'Deluxe Room', 'Deluxe Room', 40.00),
+('1013', 'Suite Room', 'Suite Room', 60.00),
+('1014', 'Basic Room', 'Basic Room', 20.00),
+('1015', 'Deluxe Room', 'Deluxe Room', 40.00),
+('1016', 'Suite Room', 'Suite Room', 60.00),
+('1017', 'Basic Room', 'Basic Room', 20.00),
+('1018', 'Deluxe Room', 'Deluxe Room', 40.00),
+('1019', 'Suite Room', 'Suite Room', 60.00),
+('1020', 'Basic Room', 'Basic Room', 20.00),
+('1021', 'Deluxe Room', 'Deluxe Room', 40.00);

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using static HotelBookingSystem.Payment.FinalConfirmation;
 
 namespace HotelBookingSystem.Payment
 {
@@ -11,7 +12,11 @@ namespace HotelBookingSystem.Payment
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string BookingID = Session["BookingID"] as string;
 
+            lblBooking.Text = BookingID;
         }
+
+
     }
 }

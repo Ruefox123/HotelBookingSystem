@@ -1,0 +1,2 @@
+﻿INSERT INTO Booking (BookingID, BookingDateAndTime, ReservationDate, ReservationTime, NumOfGuest, CustomerID, RoomID, ServicesID)
+VALUES ('BK00000001', '2024-01-03T20:39:02', '2024-01-21', '13:00', 1, 'A00001', 1001, NULL);

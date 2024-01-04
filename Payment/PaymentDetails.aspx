@@ -1,9 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Hotel.Master" AutoEventWireup="true" CodeBehind="PaymentDetails.aspx.cs" Inherits="HotelBookingSystem.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Hotel.Master" AutoEventWireup="true" CodeBehind="PaymentDetails.aspx.cs" Inherits="HotelBookingSystem.Payment.PaymentDetails" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link rel="stylesheet" type="text/css" href="Cards.css" />
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-        <div>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+            <div>
             <h2>Payment Details</h2>
             <asp:Label ID="CardNumberLabel" runat="server" Text="Card Number:" />
             <asp:TextBox ID="CardNumberTextBox" runat="server" />

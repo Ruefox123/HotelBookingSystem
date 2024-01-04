@@ -38,9 +38,6 @@ namespace HotelBookingSystem
         {
             Response.Redirect("Payment/PaymentDetails.aspx");
         }
-        protected void SubmitButton_Click(object sender, EventArgs e)
-        {
-            
-        }
+
     }
 }
